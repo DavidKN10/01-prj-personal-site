@@ -232,6 +232,11 @@ footer {
 
 .project-card {
   margin-top: 16px; /* Space above the project card */
+  border: 2px solid #e6f0fa; /* Light blue border to distinguish cards */
+  border-radius: 10px; /* Match the card's rounded corners */
+  padding: 16px; /* Add padding inside the card */
+  background: #fff; /* Ensure background stays white */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Soft shadow for the image */
 }
 
 .project-img {
