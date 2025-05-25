@@ -173,6 +173,20 @@ footer {
   fill: #F7DF1E; /* JavaScript yellow color for the icon */
 }
 
+.dart-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #0175C2; /* Dart blue color for the icon */
+}
+
+.flutter-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #02569B; /* Flutter blue color for the icon */
+}
+
 .git-icon {
   width: 24px; /* Set icon width */
   height: 24px; /* Set icon height */
