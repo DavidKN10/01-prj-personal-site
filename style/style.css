@@ -132,6 +132,74 @@ footer {
   margin-bottom: 16px; /* Space below the description */
 }
 
+/* Style the Python icon in the skills section */
+.skill-icon {
+  vertical-align: middle; /* Align icon with text */
+  margin-right: 8px; /* Space between icon and skill name */
+}
+
+.python-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #3776AB; /* Python blue color for the icon */
+}
+
+.cpp-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #00599C; /* C++ blue color for the icon */
+}
+
+.html-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #E34F26; /* HTML orange color for the icon */
+}
+
+.css-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #663399; /* CSS blue color for the icon */
+}
+
+.js-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #F7DF1E; /* JavaScript yellow color for the icon */
+}
+
+.git-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #F05032; /* Git red color for the icon */
+}
+
+.github-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #181717; /* GitHub black color for the icon */
+}
+
+.linux-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+}
+
+.vim-icon {
+  width: 24px; /* Set icon width */
+  height: 24px; /* Set icon height */
+  display: inline-block; /* Keep icon inline with text */
+  fill: #019833; /* Vim green color for the icon */
+}
+
 /* Style the Projects section as a simple card */
 .projects {
   max-width: 700px; /* Limit the width for a card look */
@@ -174,4 +242,33 @@ footer {
 
 .project-link:hover {
   background-color: #3949ab; /* Lighter blue on hover */
+}
+
+/* Style the Contact section as a simple card */
+.contact {
+  max-width: 700px; /* Limit the width for a card look */
+  margin: 30px auto; /* Center the card horizontally with space above and below */
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow for card effect */
+  padding: 24px; /* Space inside the card */
+  font-size: 20px; /* Slightly larger font for readability */
+  text-align: center; /* Center the text */
+}
+
+.contact h2 {
+  margin-top: 0; /* Remove top margin for heading */
+}
+
+.contact p {
+  margin-bottom: 0; /* Remove bottom margin for paragraph */
+}
+
+.contact a {
+  color: #1a237e; /* Match nav bar color for links */
+  text-decoration: underline; /* Underline links for clarity */
+}
+
+.contact a:hover {
+  color: #3949ab; /* Lighter blue on hover */
 }
