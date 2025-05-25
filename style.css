@@ -1,1 +1,19 @@
-/* Add you CSS here */
+/* Style the navigation bar */
+nav {
+  /* Center the navigation bar */
+  text-align: center;
+  margin-top: 20px; /* Add some space above the nav bar */
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  /* Add space between the links */
+  margin: 0 20px;
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+  font-size: 22px; /* Make the text a bit larger */
+}
+
+nav a:hover {
+  color: #007acc; /* Change color when hovering */
+}
