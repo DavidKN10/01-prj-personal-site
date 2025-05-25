@@ -283,6 +283,12 @@ footer {
   margin-bottom: 0; /* Remove bottom margin for paragraph */
 }
 
+/* Remove bullets from the contact list */
+.contact ul {
+  list-style-type: none; /* Remove bullets from the list */
+  padding-left: 0; /* Remove default left padding */
+}
+
 .contact a {
   color: #1a237e; /* Match nav bar color for links */
   text-decoration: underline; /* Underline links for clarity */
