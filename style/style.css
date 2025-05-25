@@ -131,3 +131,47 @@ footer {
 .skills p {
   margin-bottom: 16px; /* Space below the description */
 }
+
+/* Style the Projects section as a simple card */
+.projects {
+  max-width: 700px; /* Limit the width for a card look */
+  margin: 30px auto; /* Center the card horizontally with space above and below */
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow for card effect */
+  padding: 24px; /* Space inside the card */
+  font-size: 20px; /* Slightly larger font for readability */
+  text-align: center; /* Center the text */
+}
+
+.projects h2 {
+  margin-top: 0; /* Remove top margin for heading */
+}
+
+.project-card {
+  margin-top: 16px; /* Space above the project card */
+}
+
+.project-img {
+  width: 100%; /* Make the image fill the card width */
+  max-width: 300px; /* Limit the image width */
+  border-radius: 8px; /* Rounded corners for the image */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Soft shadow for the image */
+  margin-bottom: 12px; /* Space below the image */
+}
+
+.project-link {
+  display: inline-block; /* Make the link look like a button */
+  margin-top: 10px; /* Space above the link */
+  padding: 8px 18px; /* Padding for the button */
+  background-color: #1a237e; /* Same dark blue as nav bar */
+  color: #fff; /* White text */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Button text size */
+  transition: background 0.2s;
+}
+
+.project-link:hover {
+  background-color: #3949ab; /* Lighter blue on hover */
+}
