@@ -1,8 +1,18 @@
+/* Remove default margin and padding from the body */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #e6f0fa; /* Light blue background for the whole page */
+}
+
 /* Style the navigation bar */
 nav {
   /* Center the navigation bar */
   text-align: center;
-  margin-top: 20px; /* Add some space above the nav bar */
+  background-color: #1a237e; /* Dark blue background */
+  padding: 16px 0; /* Add padding for better appearance */
+  width: 100%; /* Make nav bar stretch across the page */
+  box-sizing: border-box; /* Include padding in width */
 }
 
 /* Style the links inside the navigation bar */
@@ -10,10 +20,34 @@ nav a {
   /* Add space between the links */
   margin: 0 20px;
   text-decoration: none; /* Remove underline from links */
-  color: #333; /* Set link color */
+  color: #fff; /* White text for contrast on dark blue */
   font-size: 22px; /* Make the text a bit larger */
+  transition: color 0.2s; /* Smooth color transition on hover */
 }
 
 nav a:hover {
-  color: #007acc; /* Change color when hovering */
+  color: #ffeb3b; /* Yellow color when hovering for visibility */
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #e6f0fa; /* Light blue background */
+  color: #1a237e; /* Dark blue text */
+  text-align: center; /* Center the text */
+  padding: 40px 20px; /* Add space inside the hero section */
+  margin-top: 30px; /* Add space above the hero section */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  width: 100%; /* Make hero section stretch across the page */
+  box-sizing: border-box; /* Include padding in width */
+  min-height: 300px; /* Give hero section some height */
+}
+
+.hero h1 {
+  font-size: 36px; /* Make the name larger */
+  margin-bottom: 10px; /* Space below the name */
+}
+
+.hero p {
+  font-size: 20px; /* Slightly larger description text */
+  margin-top: 0; /* Remove default top margin */
 }
