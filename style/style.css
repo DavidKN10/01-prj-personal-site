@@ -49,12 +49,22 @@ nav a:hover {
   font-size: 36px; /* Make the name larger */
   margin-bottom: 10px; /* Space below the name */
   margin-top: 0;
-  padding-top: 10px; /* Add some space at the top */
+  padding-top: 20px; /* Add some space at the top */
 }
 
 .hero p {
   font-size: 20px; /* Slightly larger description text */
   margin-top: 0; /* Remove default top margin */
+}
+
+/* Style the profile picture in the hero section */
+.hero img {
+  width: 120px; /* Set the width of the image */
+  height: 120px; /* Set the height of the image */
+  border-radius: 50%; /* Make the image round */
+  margin-top: 20px; /* Add space above the image */
+  border: 4px solid #fff; /* White border around the image */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for effect */
 }
 
 /* Style the About Me section as a centered card */
@@ -88,8 +98,36 @@ footer {
   box-sizing: border-box; /* Include padding in width */
   margin-top: 30px; /* Add space above the footer */
   margin-bottom: 0px; /* Remove space below the footer */
-  position: fixed; /* Fix the footer to the bottom */
-  left: 0; /* Align to the left edge */
-  bottom: 0; /* Stick to the bottom */
-  z-index: 100; /* Make sure it stays above other content */
+}
+
+/* Style the Skills section as a simple card */
+.skills {
+  max-width: 700px; /* Limit the width for a card look */
+  margin: 30px auto; /* Center the card horizontally with space above and below */
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow for card effect */
+  padding: 24px; /* Space inside the card */
+  font-size: 20px; /* Slightly larger font for readability */
+  text-align: center; /* Center the text */
+}
+
+.skills h2 {
+  margin-top: 0; /* Remove top margin for heading */
+}
+
+.skills ul {
+  list-style-type: disc; /* Use bullet points */
+  padding-left: 20px; /* Indent the list */
+  text-align: left; /* Align list items to the left for readability */
+  display: inline-block; /* Keep the list centered in the card */
+}
+
+.skills li {
+  margin-bottom: 8px; /* Add space between skills */
+  font-size: 18px; /* Make skill text a bit larger */
+}
+
+.skills p {
+  margin-bottom: 16px; /* Space below the description */
 }
